@@ -1,0 +1,21 @@
+# Never publish data or weights — code + recipes only.
+*.parquet
+*.csv
+*.arrow
+*.bin
+*.safetensors
+*.gguf
+*.log
+*_done.txt
+subs_raw/
+hf_datasets/
+models/output/
+data/corpora/
+
+# Env / build
+venv/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+._*
